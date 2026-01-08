@@ -25,12 +25,58 @@
      color: #627382;
 }
 
+/* banner styles  */
+
+.banner{
+     background-image: url(/images/hero-bg.png);
+     background-size: cover;  
+     background-position: center;
+     background-repeat: no-repeat;
+     padding-top: 115px;
+     padding-bottom: 120px;
+}
+.early-access{
+     background-color: #ffffff;
+     color: #30B868;
+     margin-bottom: 16px;
+     padding: 5px;
+     border-radius: 20px;
+}
+.banner-title-1{
+     color: #ffffff;
+}
+.banner-title-2{
+     color: #30B868;
+     margin-bottom: 16px;
+}
+.banner-description{
+     color: #ffffff;
+}
+.secondary-btn{
+     background-color: #30B868;
+     border: none;
+     border-radius: 5px;
+     font-size: 16px;
+     font-weight: 600;
+     color: #ffffff;
+     padding: 16px;
+     margin-top: 32px;
+}
+.how-to-work-btn{
+     background-color: none;
+     border: 1px solid #ffffff;
+     border-radius: 5px;
+     padding: 16px;
+     margin-top: 32px
+     
+}
 /* Navbar styles  */
 
 .navbar{
      display: flex;
      justify-content: space-between;
      align-items: center;
+     margin-top: 30px;
 }
 .nav_link{
      display: flex;
