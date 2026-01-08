@@ -48,11 +48,11 @@ nav ul li{
      font-weight: 500;
      color: #000000;
 }
-.nav-btn{
+.access_btn{
      border: none;
      border-radius: 5px;
      background-color: #30B868;
-     color: white;
+     color: #ffffff;
      padding: 13px 16px;
      font-size: 16px;
      font-weight: 600;
@@ -111,4 +111,27 @@ nav ul li{
      background-color:#F95555;
      padding: 10px;
      border-radius: 50%;
+}
+
+/* brain section styles */
+.second-brain{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     /* gap: 60px; */
+}
+
+/* footer styles  */
+.footer{
+     border-radius: 5px;
+     background-color: #f3f7fa;
+     margin-top: 120px;
+     margin-bottom: 150px;
+}
+footer h1{
+     padding-top: 80px;
+}
+.last_line{
+     margin-top: 10px;
+     padding-bottom: 80px;
 }
