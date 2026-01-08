@@ -15,6 +15,16 @@
      max-width: 1360px;
      margin: 0 auto;
 }
+.text-center{
+     text-align: center;
+}
+.color-1{
+     color: #001931;
+}
+.color-2{
+     color: #627382;
+}
+
 /* Navbar styles  */
 
 .navbar{
@@ -32,4 +42,73 @@ nav li a{
 }
 nav ul li{
      list-style: none;
+}
+.navbar-elements{
+     font-size: 16px;
+     font-weight: 500;
+     color: #000000;
+}
+.nav-btn{
+     border: none;
+     border-radius: 5px;
+     background-color: #30B868;
+     color: white;
+     padding: 13px 16px;
+     font-size: 16px;
+     font-weight: 600;
+}
+
+/* main sections styles */
+
+
+.headline{
+     margin-top: 40px;
+}
+.headline h1{
+     font-size: 48px;
+     font-weight: 700;
+     color: #001931;
+}
+.headline p{
+     font-size: 16px;
+     font-weight: 400;
+     color: #627382;
+     margin-top: 10px;
+     margin-bottom: 44px;
+}
+
+/* scattered section styles  */
+.card-container{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.card{
+     max-width: 332px;
+     text-align: center;
+     padding: 24px;
+     box-shadow: 5px 3px 8px 2px rgba(0, 0, 0, 0.06);
+     
+}
+
+.card-title{
+     color: #001931;
+     font-size: 24px;
+     font-weight: 600;
+     margin-top: 24px;
+}
+.card-description{
+     color: #627382;
+     font-size: 16px;
+     font-weight: 400;
+     padding-bottom: 24px;
+     margin-top: 16px;
+
+}
+
+.card-image{
+     background-color:#F95555;
+     padding: 10px;
+     border-radius: 50%;
 }
