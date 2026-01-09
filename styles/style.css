@@ -65,7 +65,7 @@ nav ul li{
 /* banner styles  */
 
 .banner{
-     background-image: url('../images/hero-bg.png');
+     background-image: url(../images/hero-bg.png);
      background-size: cover;  
      background-position: center;
      background-repeat: no-repeat;
@@ -211,9 +211,9 @@ nav ul li{
      margin-bottom: 40px;
 }
 .check-mark{
-     color: #2ecc71;
-     font-size: 20px;
-     font-weight: 700;
+     color: #627382;
+     font-size: 16px;
+     font-weight: 400;
 }
 
 /* footer styles  */
