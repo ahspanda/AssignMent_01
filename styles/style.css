@@ -12,7 +12,7 @@
 }
 
 .max_width{
-     max-width: 1360px;
+     max-width: 1140px;
      margin: 0 auto;
 }
 .text-center{
@@ -36,10 +36,11 @@
      padding-bottom: 120px;
 }
 .early-access{
+     border: none;
      background-color: #ffffff;
      color: #30B868;
      margin-bottom: 16px;
-     padding: 5px;
+     padding: 8px 12px 8px 34px;
      border-radius: 20px;
 }
 .banner-title-1{
@@ -63,12 +64,12 @@
      margin-top: 32px;
 }
 .how-to-work-btn{
-     background-color: none;
-     border: 1px solid #ffffff;
+     background: transparent;
+     border: 1.5px solid rgba(255, 255, 255, 0.4);
      border-radius: 5px;
      padding: 16px;
-     margin-top: 32px
-     
+     margin-top: 32px;
+     color: #ffffff; 
 }
 /* Navbar styles  */
 
@@ -162,9 +163,8 @@ nav ul li{
 /* brain section styles */
 .second-brain{
      display: flex;
-     justify-content: space-between;
      align-items: center;
-     /* gap: 60px; */
+     gap: 20px;
 }
 
 /* footer styles  */
